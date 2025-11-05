@@ -1,0 +1,763 @@
+Read successful
+cpu
+http://10.128.0.3:8000/output.pkl
+CLIENT_INITIAL_LOADING_TIME = 3.096170502998575
+Connecting to server…
+279
+8958
+========= Client R0 E0 Statistics ==========
+Time statistics:
+Running time: 62.734484052998596
+Training time: 62.655688439001096
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R0 E1 Statistics ==========
+Time statistics:
+Running time: 65.50158376900072
+Training time: 65.49975568099762
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R0 E2 Statistics ==========
+Time statistics:
+Running time: 63.80620744299813
+Training time: 63.8045236379985
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R0 E3 Statistics ==========
+Time statistics:
+Running time: 64.28280569000344
+Training time: 64.2812618780008
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R0 E4 Statistics ==========
+Time statistics:
+Running time: 54.90259329800028
+Training time: 54.90093613899808
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+***TH - 1***  MODEL_SAVED.
+Connecting to fed_avg server to give weights…
+Size of model weights (before) in bytes is: 9344
+Size of model weights (after) in bytes is: 44805538
+SEND_WEIGHTS_COMMUNICATION_TIME = 1.477
+Global weights recieved from fedServer
+Size of global model weights (before) in bytes is: 44805523
+Size of global model weights (after) in bytes is: 9344
+======== Round 0 Summary ========
+Time statistics:
+Running time: 318.42031974500424
+Training time: 311.1421657749961
+Server work time: 202.52066745400953
+Testing time: 0
+Fed wait time: 4.833699000002525
+Round Initialization Time: 0.12848815799952717
+Networking statistics:
+Data sent to Split Server: 732096007 bytes
+Data sent to Fed Server: 44805510 bytes
+Total Sent: 776901517 bytes
+Data received from Split Server: 731586864 bytes
+Data received from Fed Server: 44805519 bytes
+Total Received: 776392383 bytes
+===== 
+Total Transmitted this Round: 1553293900 byes
+GLOBAL_CLIENT_WEIGHTS_LOADED
+Connecting to server…
+279
+8958
+========= Client R1 E0 Statistics ==========
+Time statistics:
+Running time: 86.50460830899829
+Training time: 86.50258773300448
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R1 E1 Statistics ==========
+Time statistics:
+Running time: 125.46270998199907
+Training time: 125.46082164000109
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R1 E2 Statistics ==========
+Time statistics:
+Running time: 101.52927632199862
+Training time: 101.52741837900248
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R1 E3 Statistics ==========
+Time statistics:
+Running time: 93.49867832500604
+Training time: 93.49703130499984
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R1 E4 Statistics ==========
+Time statistics:
+Running time: 93.80865788200026
+Training time: 93.80691618999845
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+***TH - 1***  MODEL_SAVED.
+Connecting to fed_avg server to give weights…
+Size of model weights (before) in bytes is: 9344
+Size of model weights (after) in bytes is: 44805538
+SEND_WEIGHTS_COMMUNICATION_TIME = 1.353
+Global weights recieved from fedServer
+Size of global model weights (before) in bytes is: 44805523
+Size of global model weights (after) in bytes is: 9344
+======== Round 1 Summary ========
+Time statistics:
+Running time: 526.5853377210005
+Training time: 500.7947752470063
+Server work time: 179.34677199620637
+Testing time: 0
+Fed wait time: 3.671523924997018
+Round Initialization Time: 19.56524003999948
+Networking statistics:
+Data sent to Split Server: 732096007 bytes
+Data sent to Fed Server: 44805510 bytes
+Total Sent: 776901517 bytes
+Data received from Split Server: 731586864 bytes
+Data received from Fed Server: 44805519 bytes
+Total Received: 776392383 bytes
+===== 
+Total Transmitted this Round: 1553293900 byes
+GLOBAL_CLIENT_WEIGHTS_LOADED
+Connecting to server…
+279
+8958
+========= Client R2 E0 Statistics ==========
+Time statistics:
+Running time: 65.9455685569992
+Training time: 65.94279098800325
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R2 E1 Statistics ==========
+Time statistics:
+Running time: 113.98253267999826
+Training time: 113.98088104099588
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R2 E2 Statistics ==========
+Time statistics:
+Running time: 121.0610305309965
+Training time: 121.05931945000339
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R2 E3 Statistics ==========
+Time statistics:
+Running time: 93.0984171309974
+Training time: 93.09663604999514
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R2 E4 Statistics ==========
+Time statistics:
+Running time: 93.17781336299959
+Training time: 93.17579844699503
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+***TH - 1***  MODEL_SAVED.
+Connecting to fed_avg server to give weights…
+Size of model weights (before) in bytes is: 9344
+Size of model weights (after) in bytes is: 44805538
+SEND_WEIGHTS_COMMUNICATION_TIME = 1.318
+Global weights recieved from fedServer
+Size of global model weights (before) in bytes is: 44805523
+Size of global model weights (after) in bytes is: 9344
+======== Round 2 Summary ========
+Time statistics:
+Running time: 512.4677587639962
+Training time: 487.2554259759927
+Server work time: 180.62172860610735
+Testing time: 0
+Fed wait time: 3.660097660002066
+Round Initialization Time: 19.235573994999868
+Networking statistics:
+Data sent to Split Server: 732096007 bytes
+Data sent to Fed Server: 44805510 bytes
+Total Sent: 776901517 bytes
+Data received from Split Server: 731586864 bytes
+Data received from Fed Server: 44805519 bytes
+Total Received: 776392383 bytes
+===== 
+Total Transmitted this Round: 1553293900 byes
+GLOBAL_CLIENT_WEIGHTS_LOADED
+Connecting to server…
+279
+8958
+========= Client R3 E0 Statistics ==========
+Time statistics:
+Running time: 80.05987652700423
+Training time: 80.05787623400101
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R3 E1 Statistics ==========
+Time statistics:
+Running time: 103.01899731899903
+Training time: 103.01703111700044
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R3 E2 Statistics ==========
+Time statistics:
+Running time: 102.13838700100314
+Training time: 102.13663762899523
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R3 E3 Statistics ==========
+Time statistics:
+Running time: 131.0987858830049
+Training time: 131.09652506199927
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R3 E4 Statistics ==========
+Time statistics:
+Running time: 93.84573844799888
+Training time: 93.84406226599822
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+***TH - 1***  MODEL_SAVED.
+Connecting to fed_avg server to give weights…
+Size of model weights (before) in bytes is: 9344
+Size of model weights (after) in bytes is: 44805538
+SEND_WEIGHTS_COMMUNICATION_TIME = 1.229
+Global weights recieved from fedServer
+Size of global model weights (before) in bytes is: 44805523
+Size of global model weights (after) in bytes is: 9344
+======== Round 3 Summary ========
+Time statistics:
+Running time: 536.660784404994
+Training time: 510.1521323079942
+Server work time: 193.49740292911883
+Testing time: 0
+Fed wait time: 3.4411580439991667
+Round Initialization Time: 20.38916463600617
+Networking statistics:
+Data sent to Split Server: 732096007 bytes
+Data sent to Fed Server: 44805510 bytes
+Total Sent: 776901517 bytes
+Data received from Split Server: 731586864 bytes
+Data received from Fed Server: 44805519 bytes
+Total Received: 776392383 bytes
+===== 
+Total Transmitted this Round: 1553293900 byes
+GLOBAL_CLIENT_WEIGHTS_LOADED
+Connecting to server…
+279
+8958
+========= Client R4 E0 Statistics ==========
+Time statistics:
+Running time: 90.1973593799994
+Training time: 90.19546715799515
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R4 E1 Statistics ==========
+Time statistics:
+Running time: 104.01529653099715
+Training time: 104.01361462299974
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R4 E2 Statistics ==========
+Time statistics:
+Running time: 101.98169640600099
+Training time: 101.97850877699966
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R4 E3 Statistics ==========
+Time statistics:
+Running time: 106.54052315399895
+Training time: 106.53876634599874
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R4 E4 Statistics ==========
+Time statistics:
+Running time: 101.69428059199709
+Training time: 101.69202355900052
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+***TH - 1***  MODEL_SAVED.
+Connecting to fed_avg server to give weights…
+Size of model weights (before) in bytes is: 9344
+Size of model weights (after) in bytes is: 44805538
+SEND_WEIGHTS_COMMUNICATION_TIME = 1.425
+Global weights recieved from fedServer
+Size of global model weights (before) in bytes is: 44805523
+Size of global model weights (after) in bytes is: 9344
+======== Round 4 Summary ========
+Time statistics:
+Running time: 529.1236158070024
+Training time: 504.4183804629938
+Server work time: 189.7979800349858
+Testing time: 0
+Fed wait time: 3.416868512002111
+Round Initialization Time: 19.04430545499781
+Networking statistics:
+Data sent to Split Server: 732096007 bytes
+Data sent to Fed Server: 44805510 bytes
+Total Sent: 776901517 bytes
+Data received from Split Server: 731586864 bytes
+Data received from Fed Server: 44805519 bytes
+Total Received: 776392383 bytes
+===== 
+Total Transmitted this Round: 1553293900 byes
+GLOBAL_CLIENT_WEIGHTS_LOADED
+Connecting to server…
+279
+8958
+========= Client R5 E0 Statistics ==========
+Time statistics:
+Running time: 91.27583373899688
+Training time: 91.27375072100403
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R5 E1 Statistics ==========
+Time statistics:
+Running time: 103.44336990799638
+Training time: 103.44149137299974
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R5 E2 Statistics ==========
+Time statistics:
+Running time: 101.25675125999987
+Training time: 101.25488968099671
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R5 E3 Statistics ==========
+Time statistics:
+Running time: 93.018065054006
+Training time: 93.01609613700566
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R5 E4 Statistics ==========
+Time statistics:
+Running time: 114.56809459000215
+Training time: 114.56637611599581
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+***TH - 1***  MODEL_SAVED.
+Connecting to fed_avg server to give weights…
+Size of model weights (before) in bytes is: 9344
+Size of model weights (after) in bytes is: 44805538
+SEND_WEIGHTS_COMMUNICATION_TIME = 1.289
+Global weights recieved from fedServer
+Size of global model weights (before) in bytes is: 44805523
+Size of global model weights (after) in bytes is: 9344
+======== Round 5 Summary ========
+Time statistics:
+Running time: 528.4936218000003
+Training time: 503.55260402800195
+Server work time: 185.14369681801327
+Testing time: 0
+Fed wait time: 3.5235753250017297
+Round Initialization Time: 19.06966473600187
+Networking statistics:
+Data sent to Split Server: 732096007 bytes
+Data sent to Fed Server: 44805510 bytes
+Total Sent: 776901517 bytes
+Data received from Split Server: 731586864 bytes
+Data received from Fed Server: 44805519 bytes
+Total Received: 776392383 bytes
+===== 
+Total Transmitted this Round: 1553293900 byes
+GLOBAL_CLIENT_WEIGHTS_LOADED
+Connecting to server…
+279
+8958
+========= Client R6 E0 Statistics ==========
+Time statistics:
+Running time: 79.72225342500315
+Training time: 79.7201915409969
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R6 E1 Statistics ==========
+Time statistics:
+Running time: 104.01561404899985
+Training time: 104.01394227799756
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R6 E2 Statistics ==========
+Time statistics:
+Running time: 103.00092623000091
+Training time: 102.99922007499845
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R6 E3 Statistics ==========
+Time statistics:
+Running time: 94.30603090300428
+Training time: 94.30423588999838
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R6 E4 Statistics ==========
+Time statistics:
+Running time: 93.44336202699924
+Training time: 93.44174308999936
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+***TH - 1***  MODEL_SAVED.
+Connecting to fed_avg server to give weights…
+Size of model weights (before) in bytes is: 9344
+Size of model weights (after) in bytes is: 44805538
+SEND_WEIGHTS_COMMUNICATION_TIME = 1.291
+Global weights recieved from fedServer
+Size of global model weights (before) in bytes is: 44805523
+Size of global model weights (after) in bytes is: 9344
+======== Round 6 Summary ========
+Time statistics:
+Running time: 500.1523037730003
+Training time: 474.47933287399064
+Server work time: 178.6985575110666
+Testing time: 0
+Fed wait time: 3.5512072409983375
+Round Initialization Time: 19.596699494002678
+Networking statistics:
+Data sent to Split Server: 732096007 bytes
+Data sent to Fed Server: 44805510 bytes
+Total Sent: 776901517 bytes
+Data received from Split Server: 731586864 bytes
+Data received from Fed Server: 44805519 bytes
+Total Received: 776392383 bytes
+===== 
+Total Transmitted this Round: 1553293900 byes
+GLOBAL_CLIENT_WEIGHTS_LOADED
+Connecting to server…
+279
+8958
+========= Client R7 E0 Statistics ==========
+Time statistics:
+Running time: 99.15025045200309
+Training time: 99.14823717800027
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R7 E1 Statistics ==========
+Time statistics:
+Running time: 101.24579172599624
+Training time: 101.24415161700017
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R7 E2 Statistics ==========
+Time statistics:
+Running time: 100.26477420599986
+Training time: 100.26298951899662
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R7 E3 Statistics ==========
+Time statistics:
+Running time: 93.7496415390051
+Training time: 93.74791045399616
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R7 E4 Statistics ==========
+Time statistics:
+Running time: 93.74116539600072
+Training time: 93.73937697499787
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+***TH - 1***  MODEL_SAVED.
+Connecting to fed_avg server to give weights…
+Size of model weights (before) in bytes is: 9344
+Size of model weights (after) in bytes is: 44805538
+SEND_WEIGHTS_COMMUNICATION_TIME = 1.405
+Global weights recieved from fedServer
+Size of global model weights (before) in bytes is: 44805523
+Size of global model weights (after) in bytes is: 9344
+======== Round 7 Summary ========
+Time statistics:
+Running time: 514.1071421119996
+Training time: 488.1426657429911
+Server work time: 180.77219003291975
+Testing time: 0
+Fed wait time: 3.2752263600050355
+Round Initialization Time: 20.49314118899929
+Networking statistics:
+Data sent to Split Server: 732096007 bytes
+Data sent to Fed Server: 44805510 bytes
+Total Sent: 776901517 bytes
+Data received from Split Server: 731586864 bytes
+Data received from Fed Server: 44805519 bytes
+Total Received: 776392383 bytes
+===== 
+Total Transmitted this Round: 1553293900 byes
+GLOBAL_CLIENT_WEIGHTS_LOADED
+Connecting to server…
+279
+8958
+========= Client R8 E0 Statistics ==========
+Time statistics:
+Running time: 64.41470622300403
+Training time: 64.4127289790049
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R8 E1 Statistics ==========
+Time statistics:
+Running time: 118.85423139700288
+Training time: 118.8526222129949
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R8 E2 Statistics ==========
+Time statistics:
+Running time: 102.96504414699302
+Training time: 102.96312075400056
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R8 E3 Statistics ==========
+Time statistics:
+Running time: 94.53323839099903
+Training time: 94.53148400899954
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R8 E4 Statistics ==========
+Time statistics:
+Running time: 93.75328768599866
+Training time: 93.75118142100109
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+***TH - 1***  MODEL_SAVED.
+Connecting to fed_avg server to give weights…
+Size of model weights (before) in bytes is: 9344
+Size of model weights (after) in bytes is: 44805538
+SEND_WEIGHTS_COMMUNICATION_TIME = 1.100
+Global weights recieved from fedServer
+Size of global model weights (before) in bytes is: 44805523
+Size of global model weights (after) in bytes is: 9344
+======== Round 8 Summary ========
+Time statistics:
+Running time: 499.64609081699746
+Training time: 474.511137376001
+Server work time: 184.40056102698145
+Testing time: 0
+Fed wait time: 3.339242715999717
+Round Initialization Time: 19.782665072998498
+Networking statistics:
+Data sent to Split Server: 732096007 bytes
+Data sent to Fed Server: 44805510 bytes
+Total Sent: 776901517 bytes
+Data received from Split Server: 731586864 bytes
+Data received from Fed Server: 44805519 bytes
+Total Received: 776392383 bytes
+===== 
+Total Transmitted this Round: 1553293900 byes
+GLOBAL_CLIENT_WEIGHTS_LOADED
+Connecting to server…
+279
+8958
+========= Client R9 E0 Statistics ==========
+Time statistics:
+Running time: 93.01511453100102
+Training time: 93.01301918899844
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R9 E1 Statistics ==========
+Time statistics:
+Running time: 104.13340204999986
+Training time: 104.13103322600364
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R9 E2 Statistics ==========
+Time statistics:
+Running time: 116.91122146799898
+Training time: 116.90950540299673
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R9 E3 Statistics ==========
+Time statistics:
+Running time: 93.18635996100056
+Training time: 93.18470057300146
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+========= Client R9 E4 Statistics ==========
+Time statistics:
+Running time: 93.2290462029996
+Training time: 93.2273455550021
+Testing time: 0
+Training networking statistics
+Number of bytes sent (activations): 146419200
+Number of bytes recieved (loss gradient): 146317365
+==================================
+***TH - 1***  MODEL_SAVED.
+Connecting to fed_avg server to give weights…
+Size of model weights (before) in bytes is: 9344
+Size of model weights (after) in bytes is: 44805538
+SEND_WEIGHTS_COMMUNICATION_TIME = 1.381
+Global weights recieved from fedServer
+Size of global model weights (before) in bytes is: 44805523
+Size of global model weights (after) in bytes is: 9344
+======== Round 9 Summary ========
+Time statistics:
+Running time: 526.0939766169977
+Training time: 500.4656039460024
+Server work time: 169.09978732479794
+Testing time: 0
+Fed wait time: 4.122497853000823
+Round Initialization Time: 19.332594876002986
+Networking statistics:
+Data sent to Split Server: 732096007 bytes
+Data sent to Fed Server: 44805510 bytes
+Total Sent: 776901517 bytes
+Data received from Split Server: 731586864 bytes
+Data received from Fed Server: 44805519 bytes
+Total Received: 776392383 bytes
+===== 
+Total Transmitted this Round: 1553293900 byes
+======== Global Summary ========
+Time statistics:
+Running time: 4992.4783644390045
+Initial loading time: 3.096170502998575
+Round init time: 176.63753765200818
+Total training time: 4754.91422373597
+Server work time: 1843.899343734207
+Testing time: 0
+Fed wait time: 36.83509663600853
+Networking statistics:
+Data sent to Split Server: 7320960070 bytes
+Data received from Split Server: 448055100 bytes
+Total Sent: 7769015170 bytes
+Data sent to Fed Server: 7315868640 bytes
+Data received from Fed Server: 448055190 bytes
+Total Received: 7763923830 bytes
+Total Transmitted: 15532939000 bytes
+Model statistics:
+Best client-side model accuracy: 0
+Best client-side model identifier: 
